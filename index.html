@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fff"><title>천정민 ♥ 류경은 | 결혼합니다</title>
+<style>
+:root{--ink:#29282b;--muted:#888;--pink:#fff0f3;--rose:#c77d91;--blue:#eef3f8;--line:#eee9e9;--max:520px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR","Malgun Gothic",sans-serif;line-height:1.7;letter-spacing:-.025em}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}
+.page{min-height:100svh;max-width:var(--max);margin:auto;padding:32px 22px 82px;display:flex;flex-direction:column;justify-content:center;overflow:hidden;position:relative}.cover{padding:0;text-align:center;justify-content:flex-start}.cover-photo{position:absolute;inset:0;background:linear-gradient(180deg,#ffffff10 0%,#ffffff15 40%,#ffffffed 100%),linear-gradient(135deg,#e7e1e2,#f5e9e9,#dbe3e7);display:flex;align-items:center;justify-content:center}.cover-photo img{width:100%;height:100%;object-fit:cover}.cover-content{position:relative;z-index:1;min-height:100svh;padding:12vh 22px 8vh;display:flex;flex-direction:column;justify-content:space-between;align-items:center}.cover-top {
+  font-size: 10px;
+  letter-spacing: .2em;
+  color: #666;
+}
+
+.scroll {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+}
+
+.scroll span {
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: characterBounce 3s ease-in-out infinite !important;
+}
+
+.scroll span:nth-child(2n) {
+  animation-delay: 0.15s;
+}
+
+.scroll span:nth-child(3n) {
+  animation-delay: 0.3s;
+}
+
+@keyframes characterBounce {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-12deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(12deg);
+  }
+}
+.label{font-size:10px;letter-spacing:.18em;color:var(--rose);text-align:center;margin-bottom:9px}h2{text-align:center;font-size:23px;line-height:1.45;margin:0 0 12px;font-weight:600}.lead{text-align:center;font-size:13px;color:#777;line-height:1.9;margin:0 auto 24px;white-space:pre-line}.rule{width:32px;height:1px;background:#e8bdc7;margin:16px auto 22px}.card{border:1px solid var(--line);border-radius:17px;padding:17px;margin:9px 0;background:#fff}.row{display:grid;grid-template-columns:72px 1fr;gap:8px;padding:9px 0;border-bottom:1px solid #f3f0f0;font-size:13px}.row:last-child{border:0}.key{color:#9a858b}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.pill{border:1px solid #eadde0;border-radius:999px;padding:8px 11px;background:#fff;font-size:11px;flex:1;text-align:center;min-width:85px}.primary{background:var(--pink);border-color:var(--pink);color:#784653}.small{font-size:11px;color:#8d898b;line-height:1.7}.account-title{font-size:14px;font-weight:600;margin:0 0 6px}.account{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 0;border-top:1px solid #f1eeee;font-size:11px}.account button{border:0;border-radius:20px;background:var(--pink);color:#8e5967;padding:6px 10px;font-size:10px;white-space:nowrap}.profile-layout{display:grid;grid-template-columns:1fr 65px 1fr;gap:7px;align-items:stretch;margin:20px 0}.profile{border:1px solid var(--line);border-radius:16px;padding:10px;background:#fff;min-width:0}.profile h3{text-align:center;font-size:14px;margin:0 0 10px}.profile-photo{aspect-ratio:4/5;border-radius:11px;background:linear-gradient(135deg,#f5e9ec,#e6edf3);overflow:hidden;margin-bottom:10px}.profile-photo img{width:100%;height:100%;object-fit:cover}.profile dl{margin:0}.profile dt{font-size:10px;color:#aaa;margin-top:7px}.profile dd{font-size:11px;margin:0;overflow-wrap:anywhere}.center{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:9px;font-size:11px;font-weight:600;line-height:1.8}.heart{font-size:24px;color:#df9bad}.spill{text-align:center;font-size:13px;line-height:2;white-space:pre-line;margin-top:17px}.intro{text-align:center;font-size:12px;color:#888;margin-bottom:26px}.qa{margin:17px 0 27px}.qnum{font-size:10px;color:var(--rose);letter-spacing:.12em;margin-bottom:6px}.question{font-size:16px;font-weight:600;margin-bottom:12px}.answer{display:flex;gap:8px;align-items:flex-start;margin:9px 0}.avatar{width:40px;height:40px;border-radius:50%;background:var(--pink);display:flex;align-items:center;justify-content:center;font-size:11px;color:#996877;flex:0 0 40px}.avatar.groom{background:var(--blue);color:#64809f}.bubble{border-radius:15px;padding:11px 13px;font-size:12px;flex:1;min-height:43px;white-space:pre-line}.bubble.groom{background:#f0f4f8}.bubble.bride{background:#fff0f3}.speaker{display:block;font-size:10px;margin-bottom:4px;color:#7b8da3}.bubble.bride .speaker{color:#bf788b}
+
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.gallery-item {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: 0;
+  padding: 0;
+  border-radius: 7px;
+  overflow: hidden;
+  background: #f4f1f1;
+  position: relative;
+  line-height: normal;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.gallery-item .placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #817a7c;
+  font-size: 9px;
+  text-align: center;
+  padding: 4px;
+}
+
+.gallery-item.wide {
+  grid-column: auto;
+  aspect-ratio: 1 / 1;
+}
+.modal{position:fixed;inset:0;background:#141418f5;z-index:50;display:none;align-items:center;justify-content:center;padding:22px}.modal.open{display:flex}.modal img{max-width:100%;max-height:82svh;object-fit:contain}.modal button{position:absolute;background:none;border:0;color:white;font-size:28px;padding:12px}.close{top:8px;left:10px}.prev{left:4px;top:50%}.next{right:4px;top:50%}.count{position:absolute;bottom:20px;color:#fff;font-size:12px}.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,var(--max));display:flex;justify-content:space-around;padding:9px 8px calc(9px + env(safe-area-inset-bottom));background:#ffffffed;backdrop-filter:blur(12px);border-top:1px solid #f0eeee;z-index:20}.nav a{font-size:10px;color:#888;padding:4px}.nav a:hover{color:var(--rose)}footer{text-align:center;padding:30px 10px 5px;font-size:11px;color:#aaa}@media(min-width:650px){body{background:#f6f5f5}.page{background:#fff;box-shadow:0 0 0 1px #eee}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;scroll-behavior:auto!important}}
+
+.quote-block{margin:0 auto 28px;padding:24px 16px;width:100%;background:linear-gradient(135deg,#fff7f8,#f8fafc);border-radius:18px;text-align:center}
+.quote{margin:0;font-size:14px;line-height:2;font-weight:500;word-break:keep-all;color:#51484b}
+.quote-author{margin:14px 0 0;font-size:11px;color:#9a858b;letter-spacing:.02em}
+#details h2{margin-bottom:16px}
+#details .lead{line-height:2.1;white-space:pre-line}
+.cover-copy {
+  position: absolute;
+  top: 5svh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 44px);
+  text-align: center;
+}
+
+/* 날짜: 2px 정도 크게, 굵게 */
+.cover-copy .date {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* 신랑·신부 이름: 3px 정도 크게, 굵게 */
+.cover-copy .names {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+/* 글씨 가운데 정렬 */
+.cover-copy p {
+  text-align: center;
+  opacity: 1;
+  transform: none;
+  animation: none;
+  min-height: 1.7em;
+}
+
+/* 스크롤 안내 문구 */
+.scroll {
+  position: absolute;
+  bottom: 20px; /* 아래쪽에서 떨어진 거리 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+color: #fff;
+}
+</style></head>
+<body><main>
+<section class="page cover" id="home" aria-label="첫 화면"><div class="cover-photo"><img src="images/cover.jpg" alt="신랑 신부 사진" onerror="this.style.display='none'"></div><div class="cover-content"><div class="cover-top"></div><div class="cover-copy"><p class="greeting">♥저희 결혼할게요♥</p><p class="date">2027. 07. 10. (토) · 13:00</p><p class="names">신랑 천정민　·　신부 류경은</p><p class="invite"></p></div><div class="scroll">
+  <span>우</span><span>리</span><span>의</span>
+  <span>&nbsp;</span>
+  <span>이</span><span>야</span><span>기</span><span>가</span>
+  <span>&nbsp;</span>
+  <span>궁</span><span>금</span><span>하</span><span>다</span><span>면</span>
+  <span>↓</span>
+</div></div></section>
+<section class="page" id="details">
+<div class="label">초대장</div>
+<div class="quote-block">
+<p class="quote">“부부란 무더운 여름밤 멀찍이 잠을 청하다가<br>어둠 속에서 앵 하고 모기 소리가 들리면<br>순식간에 둘이 합세하여 모기를 잡는 사이이다.”</p>
+<p class="quote-author">— 문정희, 「부부」</p>
+</div>
+<p class="lead">서로의 편이 되어
+사소한 일에도 함께 웃고,
+작은 순간에도 서로의 편이 되어 주는 사이.
+
+이제는 부부라는 이름으로
+같은 편이 되어 살아가려 합니다.
+
+저희의 새로운 시작을 따뜻한 마음으로
+함께 축복해 주시면 감사하겠습니다.</p>
+<div class="rule"></div>
+<div class="card"><div class="row"><div class="key">예식 일시</div><div>2027년 7월 10일 (토) 오후 1시</div></div><div class="row"><div class="key">예식 장소</div><div>목포 예술웨딩컨벤션</div></div><div class="row"><div class="key">주소</div><div>목포시 용해동 926-14</div></div><div class="actions"><a class="pill primary" target="_blank" rel="noopener" href="https://map.naver.com/p/search/목포%20예술웨딩컨벤션">네이버 지도</a><a class="pill" target="_blank" rel="noopener" href="https://map.kakao.com/?q=목포%20예술웨딩컨벤션">카카오맵</a><a class="pill" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=목포%20예술웨딩컨벤션">구글 지도</a></div></div><div class="card">
+<p class="account-title">오시는 길</p>
+<p class="small"><strong>대중교통으로</strong><br>
+<strong>목포역 출발</strong><br>순환버스 66번: 목포역 → 1호광장 방면 → 제일정보고 → 구 유달경기장 → 용해동아파트 후문 하차<br><br>
+<strong>목포종합버스터미널 출발</strong><br>순환버스 77번: 터미널 → 목포과학대학교 삼거리 → 시립도서관 → 제일중학교 건너 정류장 하차</p>
+<div class="rule"></div>
+<p class="small">※ 예식 당일 교통이 혼잡할 수 있으니 대중교통을 이용해 주시면 감사하겠습니다.<br>※ 버스 노선 및 운행 정보는 변경될 수 있으니 출발 전 확인해 주세요.</p>
+</div><div class="card"><p class="account-title">마음 전하실 곳</p><p class="small">원하시는 계좌 옆 복사 버튼을 눌러 주세요.</p><div class="account"><span>신랑 측 · 천정민 / 농협은행 / 352-1320-6717-53 / </span><button data-copy="천정민 / 농협은행 / 352-1320-6717-53">계좌 복사</button></div><div class="account"><span>신랑 측 · 은행 / 계좌번호 / 예금주 2</span><button data-copy="신랑측 계좌번호 2">계좌 복사</button></div><div class="account"><span>신부 측 · 류경은 / 카카오뱅크 / 3333-11-5585777 </span><button data-copy="류경은 / 카카오뱅크 / 3333-11-5585777">계좌 복사</button></div><div class="account"><span>신부 측 · 은행 / 계좌번호 / 예금주 2</span><button data-copy="신부측 계좌번호 2">계좌 복사</button></div></div></p></section>
+<section class="page" id="about"><div class="label">두 사람</div><h2>서로 다른 두 사람</h2><p class="lead">조금씩 다른 취향과 생각을 가진 두 사람을 소개합니다.</p><div class="profile-layout"><article class="profile"><h3>신랑 천정민</h3><div class="profile-photo"><img src="images/groom.jpg" alt="신랑 사진" onerror="this.style.display='none'"></div><dl><dt>가족 구성</dt><dd>아버지 : 천율곡<br>어머니 :  박오애<br> 2남 중 듬직한 애교쟁이 둘째<dl><dt>MBTI</dt><dd>ESFJ</dd><dt>사는 곳</dt><dd>전남광주 진도</dd><dt>직업</dt><dd>농부</dd><dt>취미</dt><dd>위스키 모으기, 쇠질(헬스)</dd></dl></article><div class="center"><div class="heart">♡</div>YOU<br>&<br>ME<div class="heart">♡</div></div><article class="profile"><h3>신부 류경은</h3><div class="profile-photo"><img src="images/bride.jpg" alt="신부 사진" onerror="this.style.display='none'"></div><dl><dt>가족 구성</dt><dd>아버지 : 류충상<br>어머니 :  이금란<br> 2남 1녀 중 우주 최강 막내 딸랑구<dl><dt>MBTI</dt><dd>INTP</dd><dt>사는 곳</dt><dd>서울특별시</dd><dt>직업</dt><dd>응급구조사</dd><dt>취미</dt><dd>뜨개질,러닝,영화보기<br>(한달에 한번씩 취미 생성 중)</dd></dl></article></div><p class="spill">이렇게 반대인 둘이 만나<br>가랑비에 젖어가 듯 서로에게 스며들었습니다.</p></section>
+<section class="page" id="qna"><div class="label">궁금하지?</div><h2>우리의 이야기</h2><p class="intro">오늘 결혼하는 두 사람의 이야기에요.</p>
+<article class="qa"><div class="qnum">첫 번째 질문</div><div class="question">질문을 추가해 주세요.</div><div class="answer"><div class="avatar groom">신랑</div><div class="bubble groom"><span class="speaker">신랑 천정민</span>답변을 입력해 주세요.</div></div><div class="answer"><div class="avatar">신부</div><div class="bubble bride"><span class="speaker">신부 류경은</span>답변을 입력해 주세요.</div></div></article><article class="qa"><div class="qnum">QUESTION 02</div><div class="question">질문을 추가해 주세요.</div><div class="answer"><div class="avatar groom">신랑</div><div class="bubble groom"><span class="speaker">신랑 천정민</span>답변을 입력해 주세요.</div></div><div class="answer"><div class="avatar">신부</div><div class="bubble bride"><span class="speaker">신부 류경은</span>답변을 입력해 주세요.</div></div></article><article class="qa"><div class="qnum">QUESTION 03</div><div class="question">질문을 추가해 주세요.</div><div class="answer"><div class="avatar groom">신랑</div><div class="bubble groom"><span class="speaker">신랑 천정민</span>답변을 입력해 주세요.</div></div><div class="answer"><div class="avatar">신부</div><div class="bubble bride"><span class="speaker">신부 류경은</span>답변을 입력해 주세요.</div></div></article><article class="qa"><div class="qnum">QUESTION 04</div><div class="question">질문을 추가해 주세요.</div><div class="answer"><div class="avatar groom">신랑</div><div class="bubble groom"><span class="speaker">신랑 천정민</span>답변을 입력해 주세요.</div></div><div class="answer"><div class="avatar">신부</div><div class="bubble bride"><span class="speaker">신부 류경은</span>답변을 입력해 주세요.</div></div></article><article class="qa"><div class="qnum">QUESTION 05</div><div class="question">질문을 추가해 주세요.</div><div class="answer"><div class="avatar groom">신랑</div><div class="bubble groom"><span class="speaker">신랑 천정민</span>답변을 입력해 주세요.</div></div><div class="answer"><div class="avatar">신부</div><div class="bubble bride"><span class="speaker">신부 류경은</span>답변을 입력해 주세요.</div></div></article>
+</section>
+<section class="page" id="gallery"><div class="label">데이트 중</div><h2>둘이서 차곡차곡 모은 추억</h2><p class="lead">얼굴만 봐도 꺄르륵<br>추억 몇 장 살짝 보여드릴게요!</p>
+
+<div class="gallery-grid">
+  <button class="gallery-item" data-gallery="0">
+    <img src="images/gallery-01.jpg" alt="함께한 순간 1"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 1<br>gallery-01.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="1">
+    <img src="images/gallery-02.jpg" alt="함께한 순간 2"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 2<br>gallery-02.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="2">
+    <img src="images/gallery-03.jpg" alt="함께한 순간 3"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 3<br>gallery-03.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="3">
+    <img src="images/gallery-04.jpg" alt="함께한 순간 4"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 4<br>gallery-04.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="4">
+    <img src="images/gallery-05.jpg" alt="함께한 순간 5"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 5<br>gallery-05.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="5">
+    <img src="images/gallery-06.jpg" alt="함께한 순간 6"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 6<br>gallery-06.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="6">
+    <img src="images/gallery-07.jpg" alt="함께한 순간 7"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 7<br>gallery-07.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="7">
+    <img src="images/gallery-08.jpg" alt="함께한 순간 8"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 8<br>gallery-08.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="8">
+    <img src="images/gallery-09.jpg" alt="함께한 순간 9"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 9<br>gallery-09.jpg</span>
+  </button>
+
+  <button class="gallery-item" data-gallery="9">
+    <img src="images/gallery-10.jpg" alt="함께한 순간 10"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 10<br>gallery-10.jpg</span>
+  </button>
+
+<button class="gallery-item" data-gallery="10">
+    <img src="images/gallery-11.jpg" alt="함께한 순간 11"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 11<br>gallery-11.jpg</span>
+  </button>
+<button class="gallery-item" data-gallery="11">
+    <img src="images/gallery-12.jpg" alt="함께한 순간 12"
+         onload="this.nextElementSibling.style.display='none'"
+         onerror="this.style.display='none'">
+    <span class="placeholder">사진 12<br>gallery-12.jpg</span>
+  </button>
+
+</div>
+
+<footer>저희의 시작을 함께해 주셔서 감사합니다.<br>2027. 07. 10 화창하고 아름다운 날<br>경은이와 정민이가</footer></section>
+</main><nav class="nav" aria-label="페이지 이동"><a href="#home">처음</a><a href="#details">초대장</a><a href="#about">두 사람</a><a href="#qna">궁금하지?</a><a href="#gallery">데이트중</a></nav>
+<div class="modal" id="lightbox" role="dialog" aria-modal="true" aria-label="사진 크게 보기"><button class="close" id="closeModal" aria-label="닫기">×</button><button class="prev" id="prevPhoto" aria-label="이전 사진">‹</button><img id="modalImage" src="" alt="확대 사진"><button class="next" id="nextPhoto" aria-label="다음 사진">›</button><div class="count" id="photoCount"></div></div>
+<script>
+const items=[...document.querySelectorAll('[data-gallery]')],modal=document.getElementById('lightbox'),big=document.getElementById('modalImage'),count=document.getElementById('photoCount');let current=0;
+function showPhoto(i){current=(i+items.length)%items.length;const im=items[current].querySelector('img');big.src=im.src;big.alt=im.alt;count.textContent=(current+1)+' / '+items.length;modal.classList.add('open');document.body.style.overflow='hidden'}
+function closePhoto(){modal.classList.remove('open');document.body.style.overflow=''}
+items.forEach(b=>b.addEventListener('click',()=>showPhoto(+b.dataset.gallery)));document.getElementById('closeModal').addEventListener('click',closePhoto);document.getElementById('prevPhoto').addEventListener('click',()=>showPhoto(current-1));document.getElementById('nextPhoto').addEventListener('click',()=>showPhoto(current+1));modal.addEventListener('click',e=>{if(e.target===modal)closePhoto()});document.addEventListener('keydown',e=>{if(!modal.classList.contains('open'))return;if(e.key==='Escape')closePhoto();if(e.key==='ArrowLeft')showPhoto(current-1);if(e.key==='ArrowRight')showPhoto(current+1)});let sx=0;modal.addEventListener('touchstart',e=>sx=e.changedTouches[0].screenX,{passive:true});modal.addEventListener('touchend',e=>{let dx=e.changedTouches[0].screenX-sx;if(Math.abs(dx)>45)showPhoto(current+(dx<0?1:-1))},{passive:true});document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);b.textContent='복사됨';setTimeout(()=>b.textContent='계좌 복사',1300)}catch{prompt('계좌번호를 복사해 주세요',b.dataset.copy)}}));
+
+
+
+
+
+
+// 첫 화면 문구만 한 문장씩 타자기처럼 표시합니다.
+(() => {
+  const lines = [
+    ...document.querySelectorAll(
+      '#home .cover-copy .greeting, #home .cover-copy .date, #home .cover-copy .names'
+    )
+  ];
+
+  if (!lines.length) return;
+
+  const originals = lines.map(line => line.textContent);
+  let lineIndex = 0;
+
+  // 글자 크기 설정
+  lines[0].style.fontSize = '20px'; // 저희 결혼할게요
+  lines[1].style.fontSize = '25px'; // 날짜
+  lines[2].style.fontSize = '27px'; // 신랑 · 신부 이름
+
+  // 타자기 애니메이션 초기화
+  lines.forEach(line => {
+    line.textContent = '';
+    line.style.animation = 'none';
+    line.style.opacity = '1';
+    line.style.transform = 'none';
+  });
+
+  function typeLine() {
+    if (lineIndex >= lines.length) return;
+
+    const line = lines[lineIndex];
+    const text = originals[lineIndex];
+    let charIndex = 0;
+
+    function typeChar() {
+      if (charIndex < text.length) {
+        line.textContent += text.charAt(charIndex);
+        charIndex++;
+        setTimeout(typeChar, 100);
+      } else {
+        lineIndex++;
+        setTimeout(typeLine, 450);
+      }
+    }
+
+    typeChar();
+  }
+
+  typeLine();
+})(); 
+
+</script></body></html>
